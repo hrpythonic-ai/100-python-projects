@@ -25,7 +25,7 @@ print("the area of the circle is: ",area_of_circle)
 height=float(input("Enter height of the cylinder: "))
 radius=float(input("Enter radius of cylinder: "))
 PI=3.14
-area_of_cylinder=(2*PI*radius*height)+(2*PI*r**2)
+area_of_cylinder=(2*PI*radius*height)+(2*PI*radius**2)
 print("area of cylinder is: ",area_of_cylinder)
 
 
