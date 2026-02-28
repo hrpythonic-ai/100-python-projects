@@ -10,3 +10,12 @@ for num in range(lower,upper+1):
                 break
         else:
             print(num)
+
+#2nd method to print prime numbers
+for i in range(1,100):
+    is_prime=True
+    for  j in range(2,i):
+        if i%j==0:
+            is_prime=False
+    if is_prime:
+        print(i +"is a prime number")
